@@ -135,6 +135,12 @@ section div img{
     background: teal;
     color:white;
     height: 40px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+.portfolio h4:hover{
+    width: 300px;
+    background: blueviolet;
 }
 
 textarea{
